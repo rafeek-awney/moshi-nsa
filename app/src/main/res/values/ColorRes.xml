@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <color name="light_foreground_color">#ff2D0B33</color>
+    <color name="light_background_color">#EBF5FF</color>
+
+    <color name="light_status_bar_color">#ff002B55</color>
+
+    <color name="light_hint_color">#ff888888</color>
+    <color name="light_links_color">#0000ff</color>
+
+    <!-- Dark Blue Theme-->
+    <color name="dark_blue_foreground_color">#fff2f1ff</color>
+    <color name="dark_blue_background_color">#ff002B55</color>
+
+    <color name="dark_blue_status_bar_color">#ff002B55</color>
+
+    <color name="dark_blue_hint_color">#ffbbbbbb</color>
+    <color name="dark_blue_links_color">#BFFF00</color>
+
+    <!-- Dark Blue Theme-->
+    <color name="bink_foreground_color">#651515</color>
+    <color name="bink_background_color">#D39797</color>
+
+    <color name="bink_status_bar_color">#D39797</color>
+
+    <color name="bink_hint_color">#ffbbbbbb</color>
+    <color name="bink_links_color">#0000ff</color>
+
+    <!-- Old Light Theme-->
+    <color name="old_light_foreground_color">#ff000000</color>
+    <color name="old_light_background_color">#ffC2D5D8</color>
+
+    <color name="old_light_bar_color">#ff000000</color>
+
+    <color name="old_light_hint_color">#ffbbbbbb</color>
+    <color name="old_light_links_color">#0000ff</color>
+
+    <!-- Old Dark Theme-->
+    <color name="old_dark_foreground_color">#ffffffff</color>
+    <color name="old_dark_background_color">#ff2e354f</color>
+
+    <color name="old_dark_bar_color">#ff2e354f</color>
+
+    <color name="old_dark_hint_color">#ffbbbbbb</color>
+    <color name="old_dark_links_color">#BFFF00</color>
+
+    <!-- high Contrast Light Theme-->
+    <color name="contrast_light_foreground_color">#ff000000</color>
+    <color name="contrast_light_background_color">#ffffffff</color>
+
+    <color name="contrast_light_bar_color">#ff000000</color>
+
+    <color name="contrast_light_hint_color">#ffbbbbbb</color>
+    <color name="contrast_light_links_color">#0000ff</color>
+
+    <!-- high Contrast Dark Theme-->
+    <color name="contrast_dark_foreground_color">#ffffffff</color>
+    <color name="contrast_dark_background_color">#ff000000</color>
+
+    <color name="contrast_dark_bar_color">#ff000000</color>
+
+    <color name="contrast_dark_hint_color">#ffbbbbbb</color>
+    <color name="contrast_dark_links_color">#BFFF00</color>
+
+    <!-- Cofee Theme-->
+    <color name="cofee_foreground_color">#E8D9B4</color>
+    <color name="cofee_background_color">#3c2c28</color>
+
+    <color name="cofee_bar_color">#3c2c28</color>
+
+    <color name="cofee_hint_color">#ffbbbbbb</color>
+    <color name="cofee_links_color">#BFFF00</color>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display activity for search -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layoutDirection="rtl"
+    android:background="#20000055">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotoTranimLayout"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
+
+        <EditText
+            android:id="@+id/et_search_Tranim"
+            android:background="@drawable/transparent_bg"
+            android:inputType="text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="?attr/myForegroundColor"
+            android:hint="بحث عن ترنيمه"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+
+        <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/gotoTranimLayout"
+        android:layout_margin="10dp"
+        android:id="@+id/listDisp" />
+</RelativeLayout>
+
+
+</LinearLayout>

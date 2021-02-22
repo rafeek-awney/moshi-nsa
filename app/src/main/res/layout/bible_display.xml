@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display activity for bible -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:id="@+id/layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/title_layout"
+        android:layout_marginRight="5dp">
+        <ImageButton
+            style="@style/transparent_orange_button"
+            android:id="@+id/bt_regular_read"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/ic_action_star"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:layout_toLeftOf="@id/bt_regular_read"
+            android:layout_margin="4dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="50dp"
+            android:textSize="17sp"
+            android:text=""/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/myForegroundColor"
+        android:layout_below="@id/title_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/navLayout"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layoutDirection="ltr">
+        <ImageButton
+            style="@style/transparent_orange_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_action_back"
+            android:paddingVertical="4dp"
+            android:id="@+id/btBack"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:contentDescription="back"/>
+        <ImageButton
+            style="@style/transparent_orange_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_action_next"
+            android:paddingVertical="4dp"
+            android:id="@+id/btNext"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:contentDescription="next"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/myForegroundColor"
+        android:layout_alignTop="@id/navLayout"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="20dp"
+        android:id="@+id/listDisp"
+        android:layout_below="@id/title_layout"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:layout_above="@id/navLayout"
+        android:layout_margin="3dp"/>
+
+</RelativeLayout>

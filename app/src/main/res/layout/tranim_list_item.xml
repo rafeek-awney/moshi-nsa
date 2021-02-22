@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingBottom="1dp"
+    android:layout_marginBottom="1dp"
+    android:orientation="horizontal"
+    android:layoutDirection="rtl"
+    android:weightSum="3">
+
+
+    <TextView
+        android:id="@+id/idTV"
+        android:layout_weight="1"
+        android:background="@drawable/card_border"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="idTV"
+        android:textSize="24sp"
+        android:padding="3dp"
+        android:layout_margin="2dp"/>
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="nameTV"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+
+
+
+    </LinearLayout>

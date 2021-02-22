@@ -1,0 +1,183 @@
+<resources>
+    <!-- Base application theme. -->
+    <!-- Theme.AppCompat.Light.NoActionBar -->
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="myForegroundColor">@color/light_foreground_color</item>
+        <item name="myBackgroundColor">@color/light_background_color</item>
+        <item name="myHintColor">@color/light_hint_color</item>
+        <item name="myLinksColor">@color/light_links_color</item>
+        <item name="android:statusBarColor">@color/light_status_bar_color</item>
+
+        <item name="android:navigationBarColor">?attr/myBackgroundColor</item>
+
+        <item name="colorPrimary">?attr/myBackgroundColor</item>
+        <item name="android:textColorPrimary">?attr/myForegroundColor</item>
+        <item name="android:textColorSecondary">?attr/myForegroundColor</item>
+        <item name="android:colorAccent">?attr/myForegroundColor</item>
+
+        <item name="android:textColor">?attr/myForegroundColor</item>
+        <item name="android:windowBackground">?attr/myBackgroundColor</item>
+
+        <item name="android:itemBackground">?attr/myBackgroundColor</item>
+        <item name="selectableItemBackground">?attr/myBackgroundColor</item>
+    </style>
+
+    <style name="oldLightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="myForegroundColor">@color/old_light_foreground_color</item>
+        <item name="myBackgroundColor">@color/old_light_background_color</item>
+        <item name="myHintColor">@color/old_light_hint_color</item>
+        <item name="myLinksColor">@color/old_light_links_color</item>
+        <item name="android:statusBarColor">@color/old_light_bar_color</item>
+
+        <item name="android:navigationBarColor">?attr/myBackgroundColor</item>
+
+        <item name="colorPrimary">?attr/myBackgroundColor</item>
+        <item name="android:textColorPrimary">?attr/myForegroundColor</item>
+        <item name="android:textColorSecondary">?attr/myForegroundColor</item>
+        <item name="android:colorAccent">?attr/myForegroundColor</item>
+
+        <item name="android:textColor">?attr/myForegroundColor</item>
+        <item name="android:windowBackground">?attr/myBackgroundColor</item>
+
+        <item name="android:itemBackground">?attr/myBackgroundColor</item>
+        <item name="selectableItemBackground">?attr/myBackgroundColor</item>
+    </style>
+
+    <style name="contrastLightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="myForegroundColor">@color/contrast_light_foreground_color</item>
+        <item name="myBackgroundColor">@color/contrast_light_background_color</item>
+        <item name="myHintColor">@color/contrast_light_hint_color</item>
+        <item name="myLinksColor">@color/contrast_light_links_color</item>
+        <item name="android:statusBarColor">@color/contrast_light_bar_color</item>
+
+        <item name="android:navigationBarColor">?attr/myBackgroundColor</item>
+
+        <item name="colorPrimary">?attr/myBackgroundColor</item>
+        <item name="android:textColorPrimary">?attr/myForegroundColor</item>
+        <item name="android:textColorSecondary">?attr/myForegroundColor</item>
+        <item name="android:colorAccent">?attr/myForegroundColor</item>
+
+        <item name="android:textColor">?attr/myForegroundColor</item>
+        <item name="android:windowBackground">?attr/myBackgroundColor</item>
+
+        <item name="android:itemBackground">?attr/myBackgroundColor</item>
+        <item name="selectableItemBackground">?attr/myBackgroundColor</item>
+    </style>
+
+    <style name="DarkBlueTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="myForegroundColor">@color/dark_blue_foreground_color</item>
+        <item name="myBackgroundColor">@color/dark_blue_background_color</item>
+        <item name="myHintColor">@color/dark_blue_hint_color</item>
+        <item name="myLinksColor">@color/dark_blue_links_color</item>
+        <item name="android:statusBarColor">@color/dark_blue_status_bar_color</item>
+
+        <item name="android:navigationBarColor">?attr/myBackgroundColor</item>
+
+        <item name="colorPrimary">?attr/myBackgroundColor</item>
+        <item name="android:textColorPrimary">?attr/myForegroundColor</item>
+        <item name="android:textColorSecondary">?attr/myForegroundColor</item>
+        <item name="android:colorAccent">?attr/myForegroundColor</item>
+
+        <item name="android:textColor">?attr/myForegroundColor</item>
+        <item name="android:windowBackground">?attr/myBackgroundColor</item>
+
+        <item name="android:itemBackground">?attr/myBackgroundColor</item>
+        <item name="selectableItemBackground">?attr/myBackgroundColor</item>
+    </style>
+
+    <style name="oldBlueTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="myForegroundColor">@color/old_dark_foreground_color</item>
+        <item name="myBackgroundColor">@color/old_dark_background_color</item>
+        <item name="myHintColor">@color/old_dark_hint_color</item>
+        <item name="myLinksColor">@color/old_dark_links_color</item>
+        <item name="android:statusBarColor">@color/old_dark_bar_color</item>
+
+        <item name="android:navigationBarColor">?attr/myBackgroundColor</item>
+
+        <item name="colorPrimary">?attr/myBackgroundColor</item>
+        <item name="android:textColorPrimary">?attr/myForegroundColor</item>
+        <item name="android:textColorSecondary">?attr/myForegroundColor</item>
+        <item name="android:colorAccent">?attr/myForegroundColor</item>
+
+        <item name="android:textColor">?attr/myForegroundColor</item>
+        <item name="android:windowBackground">?attr/myBackgroundColor</item>
+
+        <item name="android:itemBackground">?attr/myBackgroundColor</item>
+        <item name="selectableItemBackground">?attr/myBackgroundColor</item>
+    </style>
+
+    <style name="contrastDarkTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="myForegroundColor">@color/contrast_dark_foreground_color</item>
+        <item name="myBackgroundColor">@color/contrast_dark_background_color</item>
+        <item name="myHintColor">@color/contrast_dark_hint_color</item>
+        <item name="myLinksColor">@color/contrast_dark_links_color</item>
+        <item name="android:statusBarColor">@color/contrast_dark_bar_color</item>
+
+        <item name="android:navigationBarColor">?attr/myBackgroundColor</item>
+
+        <item name="colorPrimary">?attr/myBackgroundColor</item>
+        <item name="android:textColorPrimary">?attr/myForegroundColor</item>
+        <item name="android:textColorSecondary">?attr/myForegroundColor</item>
+        <item name="android:colorAccent">?attr/myForegroundColor</item>
+
+        <item name="android:textColor">?attr/myForegroundColor</item>
+        <item name="android:windowBackground">?attr/myBackgroundColor</item>
+
+        <item name="android:itemBackground">?attr/myBackgroundColor</item>
+        <item name="selectableItemBackground">?attr/myBackgroundColor</item>
+    </style>
+
+    <style name="BinkTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="myForegroundColor">@color/bink_foreground_color</item>
+        <item name="myBackgroundColor">@color/bink_background_color</item>
+        <item name="myHintColor">@color/bink_hint_color</item>
+        <item name="myLinksColor">@color/bink_links_color</item>
+        <item name="android:statusBarColor">@color/bink_status_bar_color</item>
+
+        <item name="android:navigationBarColor">?attr/myBackgroundColor</item>
+
+        <item name="colorPrimary">?attr/myBackgroundColor</item>
+        <item name="android:textColorPrimary">?attr/myForegroundColor</item>
+        <item name="android:textColorSecondary">?attr/myForegroundColor</item>
+        <item name="android:colorAccent">?attr/myForegroundColor</item>
+
+        <item name="android:textColor">?attr/myForegroundColor</item>
+        <item name="android:windowBackground">?attr/myBackgroundColor</item>
+
+        <item name="android:itemBackground">?attr/myBackgroundColor</item>
+        <item name="selectableItemBackground">?attr/myBackgroundColor</item>
+    </style>
+
+    <style name="CofeeTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="myForegroundColor">@color/cofee_foreground_color</item>
+        <item name="myBackgroundColor">@color/cofee_background_color</item>
+        <item name="myHintColor">@color/cofee_hint_color</item>
+        <item name="myLinksColor">@color/cofee_links_color</item>
+        <item name="android:statusBarColor">@color/cofee_bar_color</item>
+
+        <item name="android:navigationBarColor">?attr/myBackgroundColor</item>
+
+        <item name="colorPrimary">?attr/myBackgroundColor</item>
+        <item name="android:textColorPrimary">?attr/myForegroundColor</item>
+        <item name="android:textColorSecondary">?attr/myForegroundColor</item>
+        <item name="android:colorAccent">?attr/myForegroundColor</item>
+
+        <item name="android:textColor">?attr/myForegroundColor</item>
+        <item name="android:windowBackground">?attr/myBackgroundColor</item>
+
+        <item name="android:itemBackground">?attr/myBackgroundColor</item>
+        <item name="selectableItemBackground">?attr/myBackgroundColor</item>
+    </style>
+
+    <!-- ///////////////////////////////////////////// -->
+    <style name="transparent_orange_button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/petra_button_bg</item>
+        <item name="android:textColor">?attr/myForegroundColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+
+</resources>

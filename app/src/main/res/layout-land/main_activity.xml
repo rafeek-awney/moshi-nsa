@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_margin="10dp"
+                android:padding="6dp"
+                android:text="Ⲧⲟⲩⲧ/توت"
+                android:textSize="23sp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/card_border"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_text"
+            android:layout_above="@id/action_tool_bar"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:padding="6dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/fast_luck_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text="احفظها تحفظك "
+                        android:textSize="20sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/card_border"
+                        android:orientation="horizontal"
+                        android:padding="4dp"
+                        android:weightSum="4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.core.widget.NestedScrollView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/fast_luck"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:scrollbars="vertical"
+                                android:text=" ان سرت في وادي ظل الموت لا اخاف شرا عصاك و عكازك هما يعزياني (مزمور ٢٣:٤ ) "
+                                android:textSize="21sp" />
+                        </androidx.core.widget.NestedScrollView>
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ayatLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/fast_luck_title"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/main_daily"
+                            style="@style/transparent_orange_button"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:padding="6dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="اخبارنا و رسايلنا"
+                        android:textSize="20sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/card_border"
+                        android:orientation="horizontal"
+                        android:padding="4dp"
+                        android:weightSum="4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.core.widget.NestedScrollView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/message_textview"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:scrollbars="vertical"
+                                android:text="@string/app_note"
+                                android:textSize="21sp" />
+                        </androidx.core.widget.NestedScrollView>
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/messageLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/fast_luck_title"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/main_messages"
+                            style="@style/transparent_orange_button"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:layout_constraintStart_toStartOf="parent">
+                <TableLayout
+                    android:baselineAligned="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+                        <RelativeLayout
+                            android:id="@+id/action_bible"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            style="@style/transparent_orange_button">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:layout_margin="3dp"
+                                    app:srcCompat="@drawable/main_bible"/>
+                                <TextView
+                                    android:id="@+id/text_bible"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="25sp"
+                                    android:text="الكتاب المقدس"
+                                    android:gravity="center"/>
+                            </LinearLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/action_agp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
+                            style="@style/transparent_orange_button">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:srcCompat="@drawable/main_agp"
+                                    android:adjustViewBounds="true"/>
+                                <TextView
+                                    android:id="@+id/text_agp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="الاجبيه"
+                                    android:gravity="center"
+                                    android:textSize="25sp" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+                        <RelativeLayout
+                            android:id="@+id/action_tranim"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
+                            style="@style/transparent_orange_button">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/main_tranim"
+                                    android:adjustViewBounds="true"/>
+                                <TextView
+                                    android:id="@+id/text_tranim"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="كتاب الترانيم"
+                                    android:gravity="center"
+                                    android:textSize="25sp"/>
+                            </LinearLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/action_history"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:layout_margin="3dp"
+                            style="@style/transparent_orange_button">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/main_history"
+                                    android:adjustViewBounds="true"/>
+                                <TextView
+                                    android:id="@+id/text_history"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="ارشيف الكنيسه"
+                                    android:gravity="center"
+                                    android:textSize="25sp"/>
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+                        <RelativeLayout
+                            android:id="@+id/action_feel"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
+                            style="@style/transparent_orange_button">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/main_feel"
+                                    android:adjustViewBounds="true"/>
+                                <TextView
+                                    android:id="@+id/text_feel"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="كيف تشعر"
+                                    android:gravity="center"
+                                    android:textSize="25sp"/>
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </TableRow>
+
+                </TableLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/myForegroundColor"
+            android:layout_alignTop="@id/action_tool_bar"/>
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:id="@+id/action_tool_bar"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true">
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

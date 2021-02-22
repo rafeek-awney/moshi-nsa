@@ -1,0 +1,29 @@
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="عام">
+
+        <SeekBarPreference
+            app:key="text_size"
+            app:title="الخط"
+            android:max="40"
+            app:min="15"
+            android:defaultValue="23"
+            app:showSeekBarValue="true"
+            />
+
+
+        <DropDownPreference
+            app:entries="@array/Themes_names"
+            app:entryValues="@array/Themes_values"
+            app:key="themeCode"
+            app:title="Themes الوان الخلفيه"
+            android:defaultValue="LightTheme"
+            app:useSimpleSummaryProvider="true"
+
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

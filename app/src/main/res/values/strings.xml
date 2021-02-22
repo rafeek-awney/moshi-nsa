@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ⲙⲟϣⲓ ⲛ̀ⲥⲁ - أتبعني</string>
+
+    <string name="action_settings">settings</string>
+    <string name="app_note">لا توجد رسائل حاليا ....\n(تحت التجربه!)</string>
+    <string name="title_activity_settings">settings</string>
+    <string name="about_version">V2.0.00</string>
+    <string name="about_team">تصميم واعداد و برمجه\n فريق ϯⲙⲉⲧⲥⲟⲛ \n \nاعضاء الفريق  \nرفيق عوني انور \nماريو عوني انور</string>
+    <string name="about_share">شارك تطبيقنا مع اصدقائك</string>
+    <string name="about_facebook">https://www.facebook.com/etba3ny</string>
+    <string name="about_contrbution">ساههم معنا:\nم/ حنا شحاته \nم/ عادل عارف\nم/ مينا اشرف\nأ/ مارك رفعت\nانجيلوس صابر\nسامر رمسيس</string>
+    <string name="about_priest">"ماده طقسيه و مباركه واشراف \nالقس : يحنس جميل "</string>
+    <string name="about_church">كنيسه \nالشهيد العظيم مارجرجس بصنبو \nايبارشيه صنبو وديروط</string>
+
+</resources>

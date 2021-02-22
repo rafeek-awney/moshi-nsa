@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_gravity="top"
+    tools:context=".ApplicationsActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txtTitle"
+        android:gravity="start"
+        android:text="تطبيقات مفيده"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="4dp"
+        android:textSize="40sp"
+        android:padding="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/myForegroundColor"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle" />
+
+
+    <ListView
+        android:id="@+id/applications_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintBottom_toTopOf="@id/bottom_text"
+        android:layout_margin="10dp"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/bottom_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text=" إن كنت أتكلم بألسنة الناس والملائكة ولكن ليس لي محبة، فقد صرت نحاسا يطن أو صنجا يرن (كو١  ١:١٣)"
+        android:textSize="16sp"
+        android:background="@drawable/card_border"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

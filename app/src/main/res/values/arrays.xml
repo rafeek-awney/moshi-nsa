@@ -1,0 +1,25 @@
+<resources>
+    <!-- Reply Preference -->
+    <array name="Themes_names">
+        <item>Light</item>
+        <item>Old Light</item>
+        <item>High contrast Light</item>
+        <item>Dark Blue</item>
+        <item>Old Blue</item>
+        <item>High Contrast Dark</item>
+        <item>Cofee</item>
+        <item>Bink</item>
+    </array>
+
+    <array name="Themes_values">
+        <item>LightTheme</item>
+        <item>oldLightTheme</item>
+        <item>contrastLightTheme</item>
+        <item>DarkBlueTheme</item>
+        <item>oldBlueTheme</item>
+        <item>contrastDarkTheme</item>
+        <item>CofeeTheme</item>
+        <item>BinkTheme</item>
+    </array>
+
+</resources>

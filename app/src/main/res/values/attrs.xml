@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="myForegroundColor" format="reference"/>
+    <attr name="myBackgroundColor" format="reference"/>
+    <attr name="myHintColor" format="reference"/>
+    <attr name="myLinksColor" format="reference"/>
+</resources>
